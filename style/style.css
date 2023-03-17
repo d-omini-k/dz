@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 734px;
+    padding: 0 15px;
+    margin: 80px 0 150px 50px;
+
+}
+
+h2{
+    padding-bottom: 32px;
+    font-size: 38px;
+}
+
+input#po  {
+    width: 520px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-radius: 83px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 17px 0 16px 24px;
+    margin-bottom: 24px;
+}
+
+input#po:focus {
+    border: 1px solid black;
+    color: black;
+}
+
+select#oi {
+    width: 520px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-radius: 83px;
+    color: #BDBDBD;
+    padding: 17px 0 16px 24px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+
+}
+
+select#oi:focus{
+    border: 1px solid black;
+    color: black;
+
+}
+
+input#p{
+    width: 254px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-radius: 83px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 17px 0 16px 24px;
+    margin-right: 16px ;
+
+}
+
+input#p:focus{
+    border: 1px solid black;
+    color: black;
+
+}
+
+input#pr{
+    width: 130px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-radius: 83px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 17px 0 16px 24px;
+    margin: 0 16px  24px 0;
+}
+
+input#pr:last-child{
+    margin-right: 0;
+}
+
+input#pr:focus{
+
+    border: 1px solid black;
+    color: black;
+
+}
+
+textarea#pq {
+    resize: none;
+    width: 707px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-radius: 83px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 17px 0 16px 24px;
+    margin-bottom: 64px;
+
+}
+
+textarea#pq:focus{
+    border: 1px solid black;
+    color: black;
+}
+
+input#yy {
+
+    width: 220px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-radius: 83px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 17px 0 16px 24px;
+    margin-right: 16px;
+}
+
+input#yy:last-child{
+    margin-right: 0;
+}
+
+input#yy:focus{
+    border: 1px solid black;
+    color: black;
+
+}
+
+input#tt{
+    width: 220px;
+    border: 1px solid rgba(189,189, 189, 1);
+    border-radius: 83px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 17px 0 16px 24px;
+    margin-top: 24px;
+}
+
+input#tt:focus {
+    border: 1px solid black;
+color: black;
+}
+
+.group-form{
+    position: relative;
+
+}
+
+.group-form label{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    color: #424242;
+
+
+}
+
+input#mm{
+
+    width: 456px;
+    border: 1px solid rgba(189,189, 189, 1);
+    border-radius: 83px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 17px 0 16px 24px;
+    margin-top: 50px ;
+}
+
+input#mm:focus{
+    border: 1px solid black;
+    color: black;
+
+}
+
+
+.grop-form{
+    position: relative;
+    margin-top: 80px;
+}
+
+.grop-form label{
+    position: relative;
+    padding: 7px 0 0 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}
+
+.chek:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(207, 165, 165, 1);
+    border-radius: 6.64286px;
+
+}
+
+.chek:after{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    content: url("../img/Vector.svg");
+    transition: .2s;
+    opacity: 0;
+}
+
+
+.box{
+    display: none;
+}
+
+.box:checked + .chek:after{
+    opacity: 1;
+}
+
+
+.txt{
+    margin-top: 70px;
+}
+
+
+.ch_rad{
+    display: none;
+}
+
+.grpp-form{
+    position: relative;
+    margin-top: 50px ;
+
+}
+
+.rad{
+    position: absolute;
+    padding: 8px 0 0 47px;
+}
+
+.rad:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(207, 165, 165, 1);
+    border-radius: 100%;
+}
+
+.rad:after{
+
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    content: "";
+    height: 19px;
+    width: 19px;
+    border: 1px solid rgba(207, 165, 165, 1);
+    border-radius: 50%;
+    background-color: rgba(207, 165, 165, 1);
+    opacity: 0;
+
+}
+
+.ch_rad:checked + .rad:after{
+    opacity: 1;
+}
+
+
+
+.gryp-form{
+    position: relative;
+    margin-top: 100px;
+}
+
+.c_rad{
+    display: none;
+}
+
+.rdd{
+    position: absolute;
+    padding: 8px 0 0 47px;
+}
+
+.rdd:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(207, 165, 165, 1);
+    border-radius: 100%;
+}
+
+.rdd:after{
+
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    content: "";
+    height: 19px;
+    width: 19px;
+    border: 1px solid rgba(207, 165, 165, 1);
+    border-radius: 50%;
+    background-color: rgba(207, 165, 165, 1);
+    opacity: 0;
+
+}
+
+.c_rad:checked + .rdd:after{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
